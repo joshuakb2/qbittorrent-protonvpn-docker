@@ -10,7 +10,13 @@ wireguard.conf
 
 # Ignore Docker volumes (optional, if you don't want them included)
 gluetun/
-qbittorrent/
+qBittorrent/BT_backup
+qBittorrent/GeoDB
+qBittorrent/ipc-socket
+qBittorrent/lockfile
+qBittorrent/logs
+qBittorrent/qBittorrent-data.conf
+qBittorrent/**/*.lock
 
 # Ignore macOS system files (if applicable)
 .DS_Store
