@@ -46,7 +46,7 @@ in
     };
 
     system.activationScripts.qbittorrent.text = ''
-      cp -r ${./.} /etc/qbittorrent
+      cp -a ${./.}/. /etc/qbittorrent/
       cp ${cfg.envFile} /etc/qbittorrent/.env
     '';
   };
