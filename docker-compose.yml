@@ -93,6 +93,7 @@ services:
       - ./qBittorrent:/config/qBittorrent   # Stores qBittorrent settings persistently
       - qbittorrent-cache:/config/.cache
       - /torrents:/torrents
+      - /ext4-torrents:/ext4-torrents
       - /why-not-more/Torrents:/why-not-more/Torrents
 
     # ─── Performance Optimization ──────────────────────────────────────
