@@ -96,6 +96,7 @@ services:
       - /ext4-torrents:/ext4-torrents
       - /why-not-more/Torrents:/why-not-more/Torrents
       - /soul-of-x1/torrents:/soul-of-x1/torrents
+      - /josh-data-torrents:/josh-data-torrents
 
     # ─── Performance Optimization ──────────────────────────────────────
     ulimits:
